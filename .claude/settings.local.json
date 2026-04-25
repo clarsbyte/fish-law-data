@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -m finetune.extract_from_pdfs --pdf-dir \"C:\\\\Users\\\\Clarissa\\\\Downloads\\\\fish-law\")",
+      "Bash(python -c \"import sys; print\\(sys.executable\\); print\\(sys.path[:3]\\)\")",
+      "Bash(python -c \"import pypdf; print\\(pypdf.__version__\\)\")",
+      "Bash(PYTHONPATH=src python -m finetune.extract_from_pdfs --pdf-dir \"C:\\\\Users\\\\Clarissa\\\\Downloads\\\\fish-law\")",
+      "Bash(python -c ' *)",
+      "Bash(PYTHONPATH=src python -m finetune.extract_from_pdfs --pdf-dir \"C:\\\\Users\\\\Clarissa\\\\Downloads\\\\fish-law\" --out \"C:\\\\Users\\\\Clarissa\\\\Downloads\\\\fish-law\\\\extracted_rules.jsonl\")"
+    ]
+  }
+}
